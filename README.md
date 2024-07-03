@@ -8,17 +8,16 @@
 ## Extensions of Person Class:
 ### Steelers Fan Class
 - const string array instance variable
-- answer is chosen from string array
+- answerQuestion response is chosen from string array
 
 ### Bengals Fan Class
-- meal instance variable
-- 
+- meal instance variable w/ parameter in constructor
+- all @Override methods use meal
 
 ### Browns Fan Class
 - Has a character array instance variable
 - overrides whatIDo and adds some gibberish
 - answerQuestion() generates a random string of characters
-- 
 
 ### Chiefs Fan Class
 - favoritePlayer instance variable
