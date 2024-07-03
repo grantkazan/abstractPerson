@@ -24,13 +24,13 @@ public class ChiefsFan extends Person {
 
     @Override
     public void askQuestion() {
-        System.out.println("Are you from Kansas or Missouri?");
+        System.out.println("Are you from Kansas City Kansas, or Kansas City Missouri?");
     }
 
     @Override
     public void answerQuestion() {
         Random rand = new Random();
-        int randInt = rand.nextInt(2);
+        int randInt = rand.nextInt(3);
         if (randInt == 0) {
             System.out.println("I love Taylor Swift");
         } else {
