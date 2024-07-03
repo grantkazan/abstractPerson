@@ -7,7 +7,8 @@
 
 ## Extensions of Person Class:
 ### Steelers Fan Class
-- 
+- const string array instance variable
+- answer is chosen from string array
 
 ### Bengals Fan Class
 - meal instance variable
