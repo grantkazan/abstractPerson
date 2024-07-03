@@ -10,16 +10,17 @@ import java.util.Random;
  */
 
 public class ChiefsFan extends Person {
-    private String FavoritePlayer;
+    private String favoritePlayer;
 
-    public ChiefsFan(String myName, String occupation) {
+    public ChiefsFan(String myName, String occupation, String favoritePlayer) {
         super(myName, occupation);
+        this.favoritePlayer = favoritePlayer;
     }
 
     @Override
     public void whatIDo() {
         super.whatIDo();
-        System.out.println("I love Andy Reid!");
+        System.out.println("My favorite player is " + favoritePlayer);
     }
 
     @Override
