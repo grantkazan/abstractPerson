@@ -39,7 +39,7 @@ public class Party {
 		// browns fan answers with a random string
 		people.add(new BrownsFan("Drew Carey", "Talk Show Host"));
 
-		people.add(new ChiefsFan("Asher Glass", "Pharmacist"));
+		people.add(new ChiefsFan("Asher Glass", "Pharmacist", "Andy Reid"));
 
 	}
 	
