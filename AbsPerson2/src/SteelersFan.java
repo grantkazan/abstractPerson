@@ -11,7 +11,7 @@ import java.util.Random;
 
 public class SteelersFan extends Person {
 
-	private String[] answers = {
+	private final static String[] answers = {
 			"yinz gan dahntahn watch Stillers?",
 			"French fries on a sandwich taste good!",
 			"here we go steelers here we go CLAP CLAP",
