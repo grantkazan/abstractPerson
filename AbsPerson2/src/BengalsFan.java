@@ -14,16 +14,19 @@ public class BengalsFan extends Person {
 		super(Name, Occupation);
 		this.meal = meal;
 	}
-	
+
+	@Override
 	public void whatIDo() {
 		super.whatIDo();
 		System.out.println("I like to eat " + meal + "!");
 	}
-	
+
+	@Override
 	public void askQuestion() {
 		System.out.println( "Do you like to eat " + meal + "?");
 	}
-	
+
+	@Override
 	public void answerQuestion() {
 		System.out.println("513 answers question! food: " + meal);
 	}
