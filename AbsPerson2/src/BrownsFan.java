@@ -60,6 +60,7 @@ public class BrownsFan extends Person {
 	
 	@Override
 	public void whatIDo() {
+		super.whatIDo();
 		System.out.println("I'm a peastor at the parish peast the geas station");
 	}
 }
