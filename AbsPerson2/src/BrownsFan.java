@@ -41,7 +41,7 @@ public class BrownsFan extends Person {
 		StringBuilder str = new StringBuilder();
 		for (int i = 0; i < len; i++) {
 			// numbers are for ascii letters
-			randInt = rand.nextInt(91-65+1) + 65; // TODO: Where do these numbers come from?
+			randInt = rand.nextInt(91-65+1) + 65;
 			char c = (char)randInt;
 			str.append(c);
 			
