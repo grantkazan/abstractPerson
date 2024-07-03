@@ -1,3 +1,13 @@
+/**
+ * Person class
+ *
+ * @author Grant Kazan
+ * @author Samuel Wasserman
+ *
+ * Purpose: abstract person class has a template for a person.
+ * Stores name and occupation as instance variables.
+ */
+
 abstract public class Person {
     private String myName;
     private String occupation;
